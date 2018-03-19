@@ -18,7 +18,7 @@ namespace AspNetCoreFileUploadWithVueJsAxios.Controllers
 
         public IActionResult UploadFiles(IFormCollection files)
         {
-            return Json(files);
+            return Json(files.Files.Count);
         }
 
         public IActionResult About()

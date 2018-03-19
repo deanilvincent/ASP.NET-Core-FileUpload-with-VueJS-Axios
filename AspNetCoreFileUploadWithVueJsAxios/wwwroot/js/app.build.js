@@ -9938,7 +9938,7 @@ var fileUploadApp = new _vue2.default({
                     'Content-Type': 'multipart/form-data'
                 }
             }).then(function (response) {
-                alert(response.data);
+                alert("Total Mock File Uploaded: " + response.data);
             }).catch(function (error) {
                 alert("something went wrong: " + error);
             });

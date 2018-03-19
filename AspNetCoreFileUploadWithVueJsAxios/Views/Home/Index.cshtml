@@ -6,12 +6,13 @@
 <hr />
 <div id="fileUploadApp">
     <form>
-        <input type="file" @@change="fileChange($event.target.files)" />
-        <button @@click="startUpload()"></button>
+        <input type="file" multiple="" @@change="fileChange($event.target.files)" />
+        <br />
+        <button class="btn btn-primary" @@click="startUpload()" type="button">Upload File(s)</button>
     </form>
 </div>
 
 @section Scripts
-{
+    {
     <script src="~/js/app.build.js"></script>
 }

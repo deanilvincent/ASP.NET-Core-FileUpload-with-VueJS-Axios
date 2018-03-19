@@ -17,7 +17,7 @@ var fileUploadApp = new Vue({
                         'Content-Type': 'multipart/form-data'
                     }
                 }).then(response => {
-                    alert(response.data);
+                    alert(`Total Mock File Uploaded: ${response.data}`);
                 }).catch(error => {
                     alert(`something went wrong: ${error}`);
                 });
