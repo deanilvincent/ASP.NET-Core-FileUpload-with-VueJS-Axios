@@ -5,6 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using AspNetCoreFileUploadWithVueJsAxios.Models;
+using Microsoft.AspNetCore.Http;
 
 namespace AspNetCoreFileUploadWithVueJsAxios.Controllers
 {
@@ -13,6 +14,11 @@ namespace AspNetCoreFileUploadWithVueJsAxios.Controllers
         public IActionResult Index()
         {
             return View();
+        }
+
+        public IActionResult UploadFiles(IFormCollection files)
+        {
+            return Json(files);
         }
 
         public IActionResult About()
