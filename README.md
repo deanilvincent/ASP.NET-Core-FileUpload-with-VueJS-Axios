@@ -14,7 +14,7 @@ Step 1:
 Step 2: (npm restore)
 `npm install`
 
-Contribute.
+Contribute to this repository.
 
 Pull request whenever you want :)
 
