@@ -1,4 +1,4 @@
-# ASP.NET Core FileUpload with VueJS & Axios
+# ASP.NET Core FileUpload with Vue.JS & Axios
 
 This repository has package.json with installed Babel loader, webpack & npm. A simple file upload that supports multiple file upload.
 
